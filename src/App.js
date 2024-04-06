@@ -1,10 +1,13 @@
 import Counter from "./components/Counter";
-import "./App.css";
+import Todos from "./components/Todos";
+//import "./App.css";
 
 function App() {
   return (
     <div>
       <Counter number={0} />
+      <hr />
+      <Todos />
     </div>
   );
 }
